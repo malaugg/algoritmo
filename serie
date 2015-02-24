@@ -1,0 +1,43 @@
+#include"stdafx.h"
+#include"math.h"
+#include"iostream"
+#include"conio.h"
+usingnamespace std;
+int FAC(int n);
+float serie5(float X, int N);
+void main(void)
+{
+	float S,X ;
+	int N;
+	
+	cout<<"introduzca X: ";
+	cin>> X;
+	cout<<"introduzca N: ";
+	cin>> N;
+	S = serie5 (X, N);
+	cout<<"la solucion de la serie es: "<< S;
+	_getch();
+
+}
+	
+float serie5 (float X, int N)
+{	float S;
+	int signo;
+	signo = -1;
+	S = 0;
+	signo = 1;
+	for(int i=1;i<=N;i++)
+	{
+		S = S + signo * pow (X,i)/FAC(i);
+		signo = signo * (-1);
+		
+	}
+	return(S);
+}
+int FAC(int n)
+{	int F;
+	F = 1;
+	for (int i=1 ; i<= n ; i++)
+		F = F * i ;
+	return (F) ;
+}
