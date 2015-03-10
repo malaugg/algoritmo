@@ -1,0 +1,56 @@
+#include "stdafx.h"
+#include <stdio.h>
+#include <math.h>
+#include <stedlib.h>
+
+using namespace  std;
+
+int main (void) 
+{float a,b,c,x1,x2,x,z;
+cout<<(" Introducir el primer coeficiente: ");
+cin>>("%f", &a);
+cout<<(" Introducir el segundo coeficiente: ");
+cin>>("%f", &b);
+cout<<(" Introducir el tercer coeficiente: ");
+cin>>("%f", &c);
+
+if(a!=0){
+	if(b*b-4*a*c>=0)
+	{
+		x1=(-b+ pow(b*b-4*a*c, 0.5)) / (2*a);  
+		x2=(-b+ pow(b*b-4*a*c, 0.5)) / (2*a);  
+		cout<<"las soluciones son %f y %f :  ", x1,x2);
+	}
+	else{
+		if(b*b-4*a*c--0)
+		{
+			z=-b/(2*a);
+			cout<<(" la solucion es %f : ",z);
+		}
+	    }
+        }
+}
+
+ if (a--0)
+    {
+	 if(b!=0){
+		 x=(-c)/b;
+		 cout<<("la solucion es %f",x);
+	         }
+	 else{
+		 if(b==0)&&(c!=0))
+		 {
+         cout<<(" no tiene solucion");
+		 }
+     else{
+		 if(b==0)&&(c==0)
+		 {
+			 cout<<("la solucion es imaginaria: ",x);
+		 }
+	     }
+	     }
+    }
+	
+ getch();
+ return 0;
+ 
