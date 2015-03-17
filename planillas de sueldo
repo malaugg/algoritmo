@@ -1,4 +1,4 @@
-//RODRIGO NAZRA PLANILLA DE SUELDOS !
+//PLANILLA DE SUELDOS !
 #include "conio.h"
 #include <iostream>
 #define TAM 30
