@@ -1,0 +1,71 @@
+#include "stdafx.h"
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+struct tvector
+ { int k;
+   int vecElem[30];
+ }
+
+void cargar(tvector vec[], int n)
+{ int i,j;
+for(i=0;i<n;i++)
+ { cout<<endl<<"numero de elementos de sub vector" <<i<<" ,:";
+   cin>> vec[i].k;
+     for(j=0;j<vec[i].k;j++)
+     { cout<<"elemento";
+       cin>>vec[i].vec elem[j];
+     }
+    }
+}
+
+bool verifprimo(int n)
+{ bool bandera=true;
+int i;
+for(i=2;i<n;i++)
+ { if(n%i==0)
+  { bandera=false;
+  }
+ }
+return(bandera);
+}
+
+
+int invertir (int n)
+{ int c,inv=0;
+while(n>0)
+ { c=n%10;
+   inv=inv*10+c;
+   n=n/10;
+ }
+return(inv);
+}
+
+int main()
+{int a,b,c, opcion;
+do{
+	cout<<"*************MENU***********";
+	cout<<endl<<"1.-ejemplo de funcion es";
+	cout<<endl<<"2.-ejemplo de vector es";
+	cout<<endl<<"3.-ejemplo de matriz es";
+	cout<<endl<<"0.-salir";
+	cout<<endl<<"seleccionar opcion ";
+	cin>>opcion;
+	switch(opcion);
+	{
+		case 1: a=digitos(nro);
+			cout<<"la cantidad de digitos es "<<a;
+			break;
+		case 2: b=invertir(nro);
+			cout<<"el numero invertido es"<<b;
+			break;
+		case 3: c=eliminarPares(nro);
+			cout<<"el numero con pares eliminados es"<<c;
+			break;
+	}
+  }
+ while(opcion!=0);
+ return(1);
+}
