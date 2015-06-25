@@ -1,0 +1,46 @@
+TAREA #1
+	Software es todo el conjunto intangible de datos y programas de la computadora.
+	Hardware son los dispositivos físicos como la placa base, la CPU o el monitor.
+	La interacción entre el Software y el Hardware hace operativa la máquina, es decir, el Software envía instrucciones al Hardware haciendo posible su funcionamiento.
+	En matemáticas, lógica, ciencias de la computación y disciplinas relacionadas, un algoritmo (del griego y latín, dixit algorithmus y este a su vez del matemático persa Al-Juarismi1 ) es un conjunto prescrito de instrucciones o reglas bien definidas, ordenadas y finitas que permite realizar una actividad mediante pasos sucesivos que no generen dudas a quien deba realizar dicha actividad.
+	Un lenguaje de programación es un lenguaje formal diseñado para expresar procesos que pueden ser llevados a cabo por máquinas como las computadoras
+
+TAREA #2
+•	Ciclos de vidadel Software
+Modelo en cascada
+El modelo de ciclo de vida en cascada comenzó a diseñarse en 1966 y se terminó alrededor de 1970. Se define como una secuencia de fases en la que al final de cada una de ellas se reúne la documentación para garantizar que cumple las especificaciones y los requisitos antes de pasar a la fase siguiente:
+Modelo V
+El modelo de ciclo de vida V proviene del principio que establece que los procedimientos utilizados para probar si la aplicación cumple las especificaciones ya deben haberse creado en la fase de diseño.
+
+•	Estructuras de control
+En lenguajes de programación, las estructuras de control permiten modificar el flujo de ejecución de las instrucciones de unprograma. Con las estructuras de control se puede:
+	De acuerdo a una condición, ejecutar un grupo u otro de sentencias (If-Then-Else)
+	De acuerdo al valor de una variable, ejecutar un grupo u otro de sentencias (Select-Case)
+	Ejecutar un grupo de sentencias mientras se cumpla una condición (Do-While)
+	Ejecutar un grupo de sentencias hasta que se cumpla una condición (Do-Until)
+	Ejecutar un grupo de sentencias un número determinado de veces (For-Next)
+Todas las estructuras de control tienen un único punto de entrada y un único punto de salida. Las estructuras de control se puede clasificar en: secuenciales, iterativas y de control avanzadas. Esto es una de las cosas que permite que la programación se rija por los principios de la programación estructurada.
+•	Ejecución secuencial
+Pero por lo general las instrucciones se ejecutan una después de la otra, en el orden en que están escritas, es decir, en secuencia. Este proceso se conoce como ejecución secuencial.
+•	La estructura alternativapermite bifurcar el “flujo” del programa en función de una expresión lógica; disponemos de tres estructuras alternativas diferentes: alternativa simple, alternativa doble y alternativa múltiple.
+	Alternativa simple : Se realiza una acción o conjunto de acciones si se cumple una determinada condición
+	Alternativa doble: Si una condición se cumple se realizan unas acciones, si no se cumple la condición se realizan otras.
+	Alternativa múltiple: Dependiendo del valor de una variable se realizan unas acciones u otras.
+ 	
+
+•	Estructura de control Iterativa
+Las conocidas como estructuras de control iterativas se usan para repetir una o varias instrucciones ninguna, una o varias veces. Disponemos en Java de tres estructuras de control iterativas: for, while y do. El número de veces que se repite el bucle estará determinado por una expresión booleana.
+Una diferencia clave entre las estructuras de control iterativas y las de bifurcación consiste en el uso de la palabra clave continúe. Es posible controlar la ejecución de las estructuras de control iterativas mediante continúe, al contrario de lo que pasa con las de bifurcación. Por otra parte, la palabra clave break puede utilizarse tanto con las estructuras de control iterativas como con las de bifurcación. Los usos de ambas palabras clave serán vistos por separado para cada estructura de control iterativa.
+TAREA # 3
+•	Funciones 
+Una función es un conjunto de líneas de código que realizan una tarea específica y puede retornar un valor. Las funciones pueden tomar parámetros que modifiquen su funcionamiento. Las funciones son utilizadas para descomponer grandes problemas en tareas simples y para implementar operaciones que son comúnmente utilizadas durante un programa y de esta manera reducir la cantidad de código. Cuando una función es invocada se le pasa el control a la misma, una vez que esta finalizó con su tarea el control es devuelto al punto desde el cual la función fue llamada.
+	Paso por valor
+El paso de parámetros por valor consiste en copiar el contenido de la variable que queremos pasar en otra dentro del ámbito local de la subrutina, consiste pues en copiar el contenido de la memoria del argumento que se quiere pasar a otra dirección de memoria, correspondiente al argumento dentro del ámbito de dicha subrutina. Se tendrán dos valores duplicados e independientes, con lo que la modificación de uno no afecta al otro.
+	Paso por referencia
+El paso de parámetros por referencia consiste en proporcionar a la subrutina a la que se le quiere pasar el argumento la dirección de memoria del dato. En este caso se tiene un único valor referenciado (o apuntado) desde dos puntos diferentes, el programa principal y la subrutina a la que se le pasa el argumento, por lo que cualquier acción sobre el parámetro se realiza sobre la misma posición de memoria.
+Variable local
+Una variable local es, en informática, la variable a la que se le otorga un ámbito local. Tales variables sólo pueden accederse desde la función o bloque de instrucciones en donde se declaran. Las variables locales se contraponen a las variables globales.
+Variable global
+Una variable global es, en informática, una variable accesible en todos los ámbitos de un programa informático. Los mecanismos de interacción con variables globales se denominan mecanismos de entorno global. El concepto de entorno global contrasta con el de entorno local donde todas las variables son locales sin memoria compartida (y por ello todas las iteraciones pueden restringirse al intercambio).
+Constante (informática)
+En programación, una constante es un valor que no puede ser alterado durante la ejecución de un programa.
